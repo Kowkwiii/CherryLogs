@@ -33,18 +33,4 @@ To build a standalone `CherryLogs.exe`: double-click **build_exe.bat**
 
 Data is stored in `%APPDATA%\CherryLogs\cherrylogs.db`.
 
-## Project layout
-
-```
-main.py                    entry point
-cherrylogs/
-  parser.py                log parsing + classification + player detection
-  storage.py               SQLite history of imports and entries
-  filters.py  stats.py     filtering, player statistics, play sessions
-  exporter.py              TXT / CSV export
-  theme.py  branding.py    light/dark style sheets, painted cherry blossom
-  workers.py               background import / load threads
-  ui/                      main window, tables, timeline, stats, panels
-tests/                     python -m unittest discover tests
-tools/make_icon.py         builds assets/cherrylogs.ico for the exe
-```
+if you want you can add more stuff to it.
