@@ -1,0 +1,22 @@
+[12:00:01] [main/INFO]: Starting minecraft server version 1.20.4
+[12:00:09] [Server thread/INFO]: Done (7.512s)! For help, type "help"
+[12:05:11] [User Authenticator #1/INFO]: UUID of player Steve is 069a79f4-44e9-4726-a5be-fca90e38aaf5
+[12:05:12] [Server thread/INFO]: Steve[/203.0.113.5:51234] logged in with entity id 123 at (10.5, 64.0, -20.2)
+[12:05:12] [Server thread/INFO]: Steve joined the game
+[12:05:40] [Async Chat Thread - #0/INFO]: <Steve> hello everyone
+[12:06:00] [Server thread/INFO]: Alex joined the game
+[12:06:05] [Server thread/INFO]: Steve issued server command: /gamemode creative
+[12:06:05] [Server thread/INFO]: [Steve: Set own game mode to Creative Mode]
+[12:07:00] [Server thread/INFO]: [Not Secure] <Alex> hi Steve!
+[12:08:00] [Server thread/WARN]: Steve moved too quickly! 1.0,2.0,3.0
+[12:09:00] [Server thread/INFO]: Alex was slain by Steve
+[12:10:00] [Server thread/INFO]: Steve has made the advancement [Stone Age]
+[12:11:00] [Server thread/ERROR]: Could not pass event X
+java.lang.NullPointerException
+	at foo.Bar.baz(Bar.java:10)
+[12:12:00] [Server thread/INFO]: Steve lost connection: Disconnected
+[12:12:00] [Server thread/INFO]: Steve left the game
+[23:59:30] [Server thread/INFO]: Alex issued server command: /spawn
+[00:00:10] [Server thread/INFO]: <Alex> after midnight
+[00:01:00] [Server thread/INFO]: Alex left the game
+[00:02:00] [Server thread/INFO]: Stopping server
